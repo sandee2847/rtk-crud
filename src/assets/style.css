@@ -1,0 +1,97 @@
+.card{
+    height: auto;
+    padding: 10px 0px;
+    width:300px;
+    background-color: white;
+    transition:  box-shadow .5s;
+
+}
+.card:hover{
+    background-color:rgb(255, 255, 255);
+    -webkit-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.75);
+}
+
+/* form style */
+
+.form{
+    margin: auto;
+    height: auto;
+    width: 600px;
+    background-color: rgb(144, 78, 78);
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap:20px
+}
+.form form input{
+    font-size: 16px;
+    padding: 0 10px;
+    height: 40px;
+}
+.form form button{
+    height: 40px;
+    font-size: 22px;
+}
+/* popup form */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .popup-form h2 {
+    margin-top: 0;
+  }
+  
+  .popup-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup-form input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  .popup-form button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4286f4;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .popup-form button[type="submit"] {
+    background-color: #5cb85c;
+  }
+  
+  .popup-form button[type="submit"]:hover {
+    background-color: #449d44;
+  }
+  
+  .popup-form button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
