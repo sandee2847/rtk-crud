@@ -14,5 +14,6 @@
 </ul>
 <br></br>
 <p><b>Images:</b></p>
-<img/>
-<img/>
+<img src="./src/assets/images/Screenshot (70).png"/>
+<hr></hr>
+<img src="./src/assets/images/Screenshot (71).png"/>
